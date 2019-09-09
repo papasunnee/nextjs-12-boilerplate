@@ -12,13 +12,13 @@
     "start": "next src start",
     "build": "next src build "
   },
-  "dependencies": {
-    "@apollo/react-hooks": "^3.0.1",
-    "@apollo/react-ssr": "^3.0.1",
+  "dependencies": {	
+	"@apollo/react-hooks": "^3.1.0",
+    "@apollo/react-ssr": "^3.1.0",
     "@zeit/next-css": "^1.0.1",
     "@zeit/next-sass": "^1.0.1",
     "apollo-boost": "^0.4.4",
-    "apollo-link-context": "^1.0.18",
+    "apollo-link-context": "^1.0.19",
     "cookie": "^0.4.0",
     "dotenv-webpack": "^1.7.0",
     "graphql": "^14.5.4",
@@ -26,9 +26,12 @@
     "isomorphic-unfetch": "^3.0.0",
     "next": "^9.0.5",
     "node-sass": "^4.12.0",
+    "nprogress": "^0.2.0",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
+    "react-cookie-consent": "^2.5.0",
     "react-dom": "^16.9.0",
-    "reactstrap": "^8.0.1"
+    "reactstrap": "^8.0.1",
+    "styled-components": "^4.3.2"
   }
 }

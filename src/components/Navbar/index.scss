@@ -1,0 +1,13 @@
+nav {
+  position: relative;
+  border-bottom: 1px solid #00aeef;
+
+  a {
+    img {
+      max-width: 200px !important;
+      @media (max-width: 899px) {
+        max-width: 150px !important;
+      }
+    }
+  }
+}

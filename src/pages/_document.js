@@ -19,13 +19,17 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
           <link
-            href="https://fonts.googleapis.com/css?family=Lato:300,400,900&display=swap"
+            href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap"
             rel="stylesheet"
           />
           <style>
             {`
               * {
-                font-family: Lato, sans-serif;
+                font-family: 'Open Sans', sans-serif;
+                box-sizing : border-box ;
+              }
+              a{
+                text-decoration : none ;
               }
             `}
           </style>

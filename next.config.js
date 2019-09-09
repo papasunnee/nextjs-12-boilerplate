@@ -9,7 +9,7 @@ const withCSS = require("@zeit/next-css");
 /* Without CSS Modules, with PostCSS */
 module.exports = withSass(
   withCSS({
-    cssModules: true,
+    // cssModules: true,
     webpack: config => {
       config.plugins = config.plugins || [];
 
