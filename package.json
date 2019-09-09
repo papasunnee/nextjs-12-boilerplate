@@ -9,8 +9,12 @@
   "private": true,
   "scripts": {
     "dev": "next src -p 7272",
-    "start": "next src start",
-    "build": "next src build "
+    "build": "next build src ",
+    "preexport": "npm run build",
+    "export": "next export src -o ./out",
+    "start": "next start src -p $PORT",
+    "start-win": "next start src",
+    "heroku-postbuild": "next build src"
   },
   "dependencies": {	
 	"@apollo/react-hooks": "^3.1.0",
