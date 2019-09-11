@@ -1,2 +1,3 @@
-# newhaven
- new haven estate application
+# Nextjs 9 Boilerplate
+
+Boilerplate for Nextjs9
