@@ -6,7 +6,7 @@ export default () => {
     <CookieConsent
       location="top"
       buttonText="I Accept"
-      cookieName="newHaven"
+      cookieName="companyName"
       enableDeclineButton={true}
       declineButtonText="Close"
       declineButtonStyle={{
