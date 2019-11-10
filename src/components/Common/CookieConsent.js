@@ -7,7 +7,7 @@ export default () => {
       location="top"
       buttonText="I Accept"
       cookieName="newHaven"
-      enableDeclineButton="true"
+      enableDeclineButton={true}
       declineButtonText="Close"
       declineButtonStyle={{
         background: "#c12a2a",

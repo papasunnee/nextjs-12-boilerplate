@@ -31,6 +31,7 @@ const Index = ({ loggedInUser }) => {
 
 Index.getInitialProps = async context => {
   const { loggedInUser } = await checkLoggedIn(context.apolloClient);
+  console.log({ loggedInUser });
 
   if (!loggedInUser.user) {
     // If not signed in, send them somewhere more useful
