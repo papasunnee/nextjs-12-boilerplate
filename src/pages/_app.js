@@ -11,7 +11,7 @@ import CookieConsent from "../components/Common/CookieConsent";
 
 const Tawkto = dynamic(() => import("../components/Common/Tawkto"), {
   ssr: false,
-  loading: () => <p style={{ display: "none" }} />
+  loading: () => <p>Loading</p>
 });
 
 Router.events.on("routeChangeStart", url => {
